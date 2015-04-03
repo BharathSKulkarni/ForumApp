@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="styles/forum.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+                $("div").show();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear. But the div content will appear..</p>
+<p id="para">If you click on the "Hide" button, I will disappear. But the div content will appear..</p>
+
+<div id="initiallyhidden">Div contents !! </div>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>

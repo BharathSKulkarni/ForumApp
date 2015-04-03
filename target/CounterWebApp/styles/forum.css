@@ -1,0 +1,103 @@
+.forum_topic{
+    height: 100%;
+    width: 100%;
+}
+
+.forum_topic-desc {
+    height: 100%;
+    width: 100%;
+    background: #c0c0c0;
+}
+
+.forum_topic-comment {
+    height: 100%;
+    width: 100%;
+    background: #d5d5d5;
+}
+
+#initiallyhidden{
+    display: none;
+}
+
+#categories-list, ul, li, li li {
+    margin: 0;
+    padding: 0;
+}
+
+#categories-list {
+    width: auto;
+    height: 27px;
+}
+
+#categories-list ul
+{
+    line-height: 25px;
+}
+
+#categories-list li {
+    list-style: none;
+    position: relative;
+    background: #F0FAFF;
+}
+
+#categories-list li li {
+    list-style: none;
+    position: relative;
+    background: #F0FAFF;
+    left: 148px;
+    top: -27px;
+}
+
+
+#categories-list ul li a {
+    width: auto;
+    height: 25px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia,'Times New Roman',serif;
+    color:#111;
+    border:1px solid #eee;
+}
+
+#categories-list ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 27px;
+}
+
+#categories-list ul li:hover ul {
+    visibility: visible;
+}
+
+#categories-list li:hover {
+    background-color: #5CB8E6;
+}
+
+#categories-list ul li:hover ul li a:hover {
+    background-color: #5CB8E6;
+}
+
+#categories-list a:hover {
+    font-weight: bold;
+}
+
+#bgimagesecbody{
+    background-image: url("../images/Discussionboardedited.jpg");
+    background-size: cover;
+}
+
+#Forum_Add_Topic_Button {
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.pagination_class {
+    margin-left:35%;
+}
+
+#textArea {
+    width: 80%;
+    height: 100px;
+}
